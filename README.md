@@ -22,3 +22,7 @@ Write a program that initially reads a user profile name and password. It then r
 
 03. Sum Numbers:
 
+
+Write a program that reads an integer from the console and on each successive line integers until their sum is greater than or equal to the original number. After reading is complete, print the sum of the entered numbers.
+
+########
