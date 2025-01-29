@@ -1,29 +1,34 @@
-def exam_preparation(bad_grade_count, task_name, task_grade):
-    bad_grade_counter = 0
-    total_grade = 0
-    tasks_counter = 0
+def calculate_average(grades):
+    return sum(grades) / len(grades) if grades else 0  # Prevent division by zero
+
+def process_exam(max_poor_grades):
+    poor_grades = 0
+    total_problems = 0
+    grades = []
     last_problem = ""
 
-    while not task_name == "Enough":
+    problem_name = input()  # Read the first problem
+    while problem_name != "Enough" and poor_grades < max_poor_grades:
+        grade = int(input())
+        grades.append(grade)
+        total_problems += 1
+        last_problem = problem_name
 
-        if bad_grade_counter == bad_grade_count:
-            return f"You need a break, {bad_grade_counter} poor grades."
+        if grade <= 4:
+            poor_grades += 1
 
-        if task_grade <= 4:
-            bad_grade_counter += 1
+        if poor_grades < max_poor_grades:  # Only read the next problem if still allowed
+            problem_name = input()
 
-        total_grade += task_grade
-        tasks_counter += 1
-        last_problem = task_name
-        task_name = input()
-        task_grade = float(input())
-
-
-    average_grade = total_grade / tasks_counter
-    return f"Average score: {average_grade:.2f}\nNumber of problems: {tasks_counter}\nLast problem:\n{last_problem}"
+    if problem_name == "Enough":  # If stopped by "Enough"
+        average_score = calculate_average(grades)
+        print(f"Average score: {average_score:.2f}")
+        print(f"Number of problems: {total_problems}")
+        print(f"Last problem: {last_problem}")
+    else:  # If stopped by exceeding poor grades
+        print(f"You need a break, {poor_grades} poor grades.")
 
 
-bad_grade_count_arg = int(input())
-task_name_arg = input()
-task_grade_arg = int(input())
-print(exam_preparation(bad_grade_count_arg, task_name_arg, task_grade_arg))
+# Read the maximum number of poor grades allowed
+max_poor_grades_arg = int(input())
+process_exam(max_poor_grades_arg)
