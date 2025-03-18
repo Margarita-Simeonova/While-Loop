@@ -15,13 +15,22 @@ Annie goes to her hometown after a very long time abroad. On her way home, she s
 
 ########
 
-02. Password:
+02. Exam Preparation:
 
-Write a program that initially reads a user profile name and password. It then reads a login password.
-
-  -when entering a wrong password: prompt the user to enter a new password.
-  
-  -when entering a correct password: we print "Welcome {username}!".
+Write a program in which Marin solves exam problems until he receives the message "Enough" from his lecturer. For each solved problem, he receives a grade. The program should stop reading data at the command "Enough" or if Marin receives the specified number of unsatisfactory grades. Any grade that is less than or equal to 4 is unsatisfactory.
+Input
+• On the first line - number of unsatisfactory grades - integer;
+• Then, two lines are repeatedly read:
+◦ Name of problem - text;
+• Grade - integer in the interval [2…6]
+Output
+• If Marin reaches the command "Enough", print on 3 lines:
+• "Average score: {average score}"
+• "Number of problems: {number of all problems}"
+◦ "Last problem: {name of the last problem}"
+• If he receives the specified number of unsatisfactory grades:
+• "You need a break, {number of unsatisfactory grades} poor grades."
+The average grade should be formatted to the second decimal place.
 
   ########
 
