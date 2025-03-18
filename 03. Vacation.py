@@ -1,37 +1,34 @@
-def vacation(vacation_money: float):
-    money_have = float(input())
-    days_counter = 0
-    is_money_spend = True
-    spend_counter = 0
+# Read the initial inputs
+money_needed = float(input())
+money_available = float(input())
 
-    while True:
+# Initialize counters
+days_elapsed = 0
+consecutive_spend_days = 0
 
-        command = input()
-        money = float(input())
-        days_counter += 1
+# Loop until Jessie saves enough money or spends for 5 consecutive days
+while money_available < money_needed and consecutive_spend_days < 5:
+    days_elapsed += 1
+    action = input()
+    amount = float(input())
 
-        if command == "spend":
-            money_have -= money
-            spend_counter += 1
-            if money_have < 0:
-                money_have = 0
-
-            if spend_counter == 5:
-                is_money_spend = False
-                break
-
-        else:
-            money_have += money
-
-        if money_have >= vacation_money:
-            break
-
-    if is_money_spend:
-        return f"You saved the money for {days_counter} days."
-    return f"You can't save the money.\n{days_counter}"
+    if action == "save":
+        money_available += amount
+        consecutive_spend_days = 0  # Reset consecutive spend days
+    elif action == "spend":
+        money_available -= amount
+        if money_available < 0:
+            money_available = 0  # Jessie cannot have negative money
+        consecutive_spend_days += 1
+    else:
+        print("Invalid action. Please enter 'spend' or 'save'.")
+        continue
 
 
-vacation_money_arg = float(input())
-
-result = vacation(vacation_money_arg)
-print(result)
+# Check the exit conditions
+if consecutive_spend_days >= 5:
+    print("You can't save the money.")
+    print(f"{days_elapsed}")
+elif money_available >= money_needed:
+    print(f"You saved the money for {days_elapsed} days.")
+    
