@@ -6,8 +6,12 @@
 
 01. Read Text:
 
-Write a program that reads text from the console (string) and prints it until it receives the command "Stop".
-
+Annie goes to her hometown after a very long time abroad. On her way home, she sees her grandmother's old library and remembers her favorite book. Help Annie by writing a program in which she enters the book she is looking for (text). Until Annie finds her favorite book or checks out all the books in the library, the program should read the name of each subsequent book (text) she checks out on a new line. The library is out of books when you get the text "No More Books".
+• If the book you are looking for is not found, print two lines:
+• "The book you search is not here!"
+• "You checked {number} books."
+• If the book you are looking for is found, print one line:
+◦ "You checked {number} books and found it."
 ########
 
 02. Password:
