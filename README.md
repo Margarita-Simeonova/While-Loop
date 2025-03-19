@@ -56,17 +56,32 @@ The average grade should be formatted to the second decimal place.
 03. Vacation:
 
    Jessie has decided to save money for a trip and wants you to help her figure out whether she will be able to save the necessary amount. She saves or spends some of her money every day. If she wants to spend more than she has available, she will spend as much as she has and will be left with 0 leva.
-Input
+   
+Input:
+
 The following are read from the console:
+
 • Money needed for the trip - a real number;
+
 • Money available - a real number.
+
 Then, two lines are repeatedly read:
+
 • Action type - text with two options: "spend" or "save";
+
 ◦ The amount she will save/spend - a real number.
-Exit
+
+Exit:
+
 The program should terminate in the following cases:
+
 • If Jessie only spends for 5 consecutive days, the console should display:
+
 • "You can't save the money."
+
 • "{Total number of days elapsed}"
+
 • If Jesse saves the money for the vacation, the console displays:
+
 • "You saved the money for {total number of days elapsed} days."
+
