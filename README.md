@@ -4,6 +4,26 @@
 
 ### Tasks:
 
+01. Read Text:
+
+    Write a program that reads text from the console (a string) and prints it until it receives the "Stop" command.
+
+########
+
+02. Password:
+
+   Write a program that first reads the username and password of a user profile. Then reads the login password.
+   
+• if the wrong password is entered: prompt the user to enter a new password.
+
+• if the correct password is entered: print "Welcome {username}!".
+
+#######
+
+
+
+# While Loop - Exercise
+
 01. Old Books:
 
 Annie goes to her hometown after a very long time abroad. On her way home, she sees her grandmother's old library and remembers her favorite book. Help Annie by writing a program in which she enters the book she is looking for (text). Until Annie finds her favorite book or checks out all the books in the library, the program should read the name of each subsequent book (text) she checks out on a new line. 
@@ -85,3 +105,8 @@ The program should terminate in the following cases:
 
 • "You saved the money for {total number of days elapsed} days."
 
+########
+
+04. Walking:
+
+   
