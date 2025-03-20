@@ -31,4 +31,3 @@ if consecutive_spend_days >= 5:
     print(f"{days_elapsed}")
 elif money_available >= money_needed:
     print(f"You saved the money for {days_elapsed} days.")
-    
