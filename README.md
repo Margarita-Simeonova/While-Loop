@@ -10,6 +10,18 @@
 
 ########
 
+02. Password:
+
+   Write a program that first reads the username and password of a user profile. Then reads the login password.
+   
+• if the wrong password is entered: prompt the user to enter a new password.
+
+• if the correct password is entered: print "Welcome {username}!".
+
+#######
+
+
+
 # While Loop - Exercise
 
 01. Old Books:
