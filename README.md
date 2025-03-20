@@ -85,3 +85,8 @@ The program should terminate in the following cases:
 
 • "You saved the money for {total number of days elapsed} days."
 
+########
+
+04. Walking:
+
+   
