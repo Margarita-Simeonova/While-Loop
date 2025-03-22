@@ -152,4 +152,8 @@ The program should terminate in the following cases:
 
 04. Walking:
 
-   
+Gabby wants to start a healthy lifestyle and has set a goal to walk 10,000 steps every day. However, some days she is very tired from work and wants to go home before she reaches her goal. Write a program that reads from the console how many steps she walks each time she goes out during the day and when she reaches her goal it should print "Goal reached! Good job!" and how many more steps she has walked "{difference between steps} steps over the goal!"
+If she wants to go home before then, she will type the command "Going home" and enter the steps she walked on the way home. Then, if she fails to reach her goal, the console should print: "{difference between steps} more steps to reach goal."
+
+########
+
