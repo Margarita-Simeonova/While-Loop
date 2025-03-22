@@ -38,6 +38,12 @@ Write a program that calculates how much money is in the account after making a 
 
 ########
 
+06. Max Number:
+
+Write a program that, until the "Stop" command is received, reads integers entered by the user, finds the largest among them, and prints it. One number is entered per line.
+
+########
+
 
 
 # While Loop - Exercise
