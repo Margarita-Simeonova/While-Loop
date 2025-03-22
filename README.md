@@ -32,6 +32,12 @@ Write a program that reads a number n entered by the user and prints all numbers
 
 ########
 
+05. Account Balance:
+
+Write a program that calculates how much money is in the account after making a certain number of payments. On each line you will receive the amount that you need to deposit into the account, until you receive the command "NoMoreMoney". For each amount received, the console should display "Increase: " + the amount and add it to the account. If you get a number less than 0, the console should display "Invalid operation!" and the program should end. When the program ends, it should print "Total: " + the total amount in the account formatted to the second decimal place.
+
+########
+
 
 
 # While Loop - Exercise
