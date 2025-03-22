@@ -26,6 +26,14 @@
 
 ########
 
+04. Sequence 2k+1:
+
+Write a program that reads a number n entered by the user and prints all numbers ≤ n in the sequence: 1, 3, 7, 15, 31, …. Each subsequent number is calculated by multiplying the previous one by 2 and adding 1.
+
+########
+
+
+
 # While Loop - Exercise
 
 01. Old Books:
