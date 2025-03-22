@@ -44,6 +44,12 @@ Write a program that, until the "Stop" command is received, reads integers enter
 
 ########
 
+07. Min Number:
+
+Write a program that, until the "Stop" command is received, reads integers entered by the user, finds the smallest one among them, and prints it. One number is entered per line.
+
+########
+
 
 
 # While Loop - Exercise
