@@ -20,7 +20,11 @@
 
 #######
 
+03. Sum Number:
 
+   Write a program that reads an integer from the console and on each subsequent line, integers until their sum is greater than or equal to the original number. After the reading is complete, print the sum of the entered numbers.
+
+########
 
 # While Loop - Exercise
 
