@@ -50,6 +50,19 @@ Write a program that, until the "Stop" command is received, reads integers enter
 
 ########
 
+08. Graduation:
+
+Write a program that calculates the average grade of a student throughout his/her education. On the first line you will receive the student's name, and on each subsequent line his/her annual grades. The student advances to the next grade if his/her annual grade is greater than or equal to 4.00. If the student fails more than once, he/she is expelled and the program ends, printing the student's name and the grade in which he/she was expelled.
+
+Upon successful completion of the 12th grade, print:
+
+"{student's name} graduated. Average grade: {average grade of his/her entire education}"
+
+In case the student is expelled from school, print:
+
+"{student's name} has been excluded at {grade in which he/she was expelled} grade"
+
+The value must be formatted to the second decimal place.
 
 
 # While Loop - Exercise
