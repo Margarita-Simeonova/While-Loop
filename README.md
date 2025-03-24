@@ -157,3 +157,5 @@ If she wants to go home before then, she will type the command "Going home" and 
 
 ########
 
+05. Coin:
+
