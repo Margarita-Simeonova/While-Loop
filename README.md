@@ -166,6 +166,10 @@ Vending machine manufacturers wanted to make their machines give out as few coin
 06. Cake:
 
 You are invited to a 30th birthday party where the birthday boy is eating a huge cake. However, he does not know how many pieces the guests can take from it. Your task is to write a program that calculates the number of pieces the guests have taken before it runs out. You will receive the dimensions of the cake (width and length - integers) and then on each line, until the command "STOP" is received or until the cake runs out, the number of pieces the guests take from it. Each piece of cake is 1x1 cm in size.
+
 Print one of the following lines to the console:
+
 • "{number of pieces} pieces are left." - if you get to STOP and the pieces of cake are not finished;
+
 • "No more cake left! You need {number of missing pieces} pieces more."
+
