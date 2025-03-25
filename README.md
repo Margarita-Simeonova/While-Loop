@@ -159,3 +159,7 @@ If she wants to go home before then, she will type the command "Going home" and 
 
 05. Coin:
 
+Vending machine manufacturers wanted to make their machines give out as few coins as possible. Write a program that takes an amount of change to give out and calculates the minimum number of coins needed to do so.
+
+########
+
