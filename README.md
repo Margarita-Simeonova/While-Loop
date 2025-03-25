@@ -173,3 +173,7 @@ Print one of the following lines to the console:
 
 • "No more cake left! You need {number of missing pieces} pieces more."
 
+########
+
+07. Moving:
+
