@@ -200,6 +200,9 @@ Exit:
 One of the following lines should be printed on the console:
 
 • If you reach the "Done" command and there is still free space:
+
 "{number of free cubic meters} Cubic meters left."
+
 • If the free space runs out before the "Done" command is received:
+ 
 "No more free space! You need {number of missing cubic meters} Cubic meters more."
