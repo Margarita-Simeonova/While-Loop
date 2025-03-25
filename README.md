@@ -177,3 +177,19 @@ Print one of the following lines to the console:
 
 07. Moving:
 
+On his eighteenth birthday, José decided to move out to live in an apartment. He packed his belongings in boxes and found a suitable ad for an apartment for rent. He started moving his belongings in parts because he couldn't do it all at once. He had limited free space in his new home where he could arrange his belongings so that the place would be suitable for living.
+Write a program that calculates the free volume of José's home that remains after he moves his belongings.
+Each box has the exact dimensions: 1m x 1m x 1m.
+Input
+The user enters the following data on separate lines:
+1. Width of the free space - an integer;
+2. Length of the free space - an integer;
+3. Height of the free space - an integer;
+4. On the following lines (until the "Done" command is received) - number of boxes to be moved to the apartment - integers
+The program should finish reading data at the "Done" command or if the free space runs out.
+Exit
+One of the following lines should be printed on the console:
+• If you reach the "Done" command and there is still free space:
+"{number of free cubic meters} Cubic meters left."
+• If the free space runs out before the "Done" command is received:
+"No more free space! You need {number of missing cubic meters} Cubic meters more."
